@@ -14,16 +14,14 @@
 
 // 3-misol
 
-
 // function newarr(arr){
 // let arr1=[]
 //     for(let i=1;i<=arr;i++){
 //         arr1.push(i)
 //     }
 //     return arr1
-        
-// }console.log(newarr(10));
 
+// }console.log(newarr(10));
 
 // 4-misol
 
@@ -37,20 +35,18 @@
 //     arr.forEach(function(value){
 //         if(value%2==0){
 //             sum1+=value
-            
+
 //         }if(value%2==1){
 //             sum2+=value
 //         }
 
 //     })
-// return  
+// return
 
 // }
 // console.log(sumAll(arr));
 
-
 // 5-misol
-
 
 // const str=" s!a!l!o!m"
 // function deletesym(str){
@@ -67,7 +63,7 @@
 //     let sum1=0
 //     let sum2=0
 //     let sumAll=0
-  
+
 // arr1.forEach(function(value){
 //     return sum1+=value
 // })
@@ -75,23 +71,20 @@
 //     return sum2+=value
 // })
 // return sumAll=sum1+sum2
-    
-// }console.log(sumAllarr(arr1,arr2));
 
+// }console.log(sumAllarr(arr1,arr2));
 
 // 7-misol
 
 // const str= 'salom'
 
 // function deleteFirstandlastelement(str){
-   
 
-// }
+// return str.substring(1, str.length - 1);
 
-
+// }console.log(deleteFirstandlastelement(str));
 
 // 8-misol
-
 
 // let arr=[1,2,3,4,5,6,7,8,9]
 // function teskarisigachiqarish(arr) {
@@ -100,9 +93,8 @@
 //         reversearray.push(arr[i]);
 //     }
 //     return reversearray;
-// } 
+// }
 // console.log(teskarisigachiqarish(arr));
-
 
 // 9-misol
 
@@ -113,21 +105,21 @@
 // }
 // console.log(removeZero(str));
 
-
-
 // 10-misol
 
+// let arr = [5, 2, 3, 4, 5];
 
-// let arr = [5,2,3,4,5]
+// function minandlastdelete(arr) {
+//   let min = arr[0];
 
-// function findsmallelement(arr){
-// let min=0;
-// arr.forEach(function(value){
-//   if(value<min){
-//     min=value
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < min) {
+//       min = arr[i];
+//     }
 //   }
-// })
-// return min;
-// }
-// console.log(findsmallelement(arr));
 
+//   let result = min ** 4;
+
+//   return result;
+// }
+// console.log(minandlastdelete(arr));
